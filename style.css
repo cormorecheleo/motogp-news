@@ -1,0 +1,35 @@
+@font-face{
+    font-family: "hemi head";
+    src: url("./hemi\ head\ bd\ it.ttf");
+}
+
+body{
+    font-family: "hemi head";
+}
+
+p {
+    display: inline;
+}
+
+
+
+.list{
+    font-size: 28px;
+}
+
+/* Animation color */
+@keyframes finishColorPalette{
+    0% {
+        color: #ffffff;
+    }
+    50%{
+        color: #dc3545;
+    }
+}
+
+.finishColor{
+    animation-name: finishColorPalette;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
